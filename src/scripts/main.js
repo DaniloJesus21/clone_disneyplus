@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
+  document.body.style.zoom = "75%";
+
   const buttons = document.querySelectorAll('[data-tab-button]');
   const questions = document.querySelectorAll('[data-faq-question]');
 
