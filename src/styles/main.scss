@@ -46,7 +46,7 @@ body {
   @include text(18px);
 
   @media (max-width: 768px) {
-      @include text(15px);
+    @include text(15px);
   }
 }
 
@@ -54,7 +54,7 @@ body {
   @include text;
 
   @media (max-width: 768px) {
-      @include text(14px);
+    @include text(14px);
   }
 }
 
@@ -62,7 +62,7 @@ body {
   @include text(12px);
 
   @media (max-width: 768px) {
-      @include text(11px);
+    @include text(11px);
   }
 }
 
@@ -76,7 +76,7 @@ body {
   @include title(44px);
 
   @media (max-width: 768px) {
-      @include title(26px);
+    @include title(26px);
   }
 }
 
@@ -84,7 +84,7 @@ body {
   @include title;
 
   @media (max-width: 768px) {
-      @include title(24px);
+    @include title(24px);
   }
 }
 
@@ -92,7 +92,7 @@ body {
   @include title(28px);
 
   @media (max-width: 768px) {
-      @include title(22px);
+    @include title(22px);
   }
 } 
 
@@ -144,6 +144,10 @@ body {
   grid-template-columns: 1fr 1fr;
   align-items: center;
 
+  @media (max-width: 768px){
+    display: block;  
+  }
+
   img {
     max-width: 100%;
   }
@@ -173,6 +177,13 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
+
+      @media (max-width: 768px){
+        position: relative;
+        left: 0;
+        width: 100%; 
+      }
     }
   }
 }
+
