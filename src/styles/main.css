@@ -229,6 +229,7 @@
 @media (max-width: 768px) {
   .faq__questions__item__question::after {
     font-size: 24px;
+    margin-left: 5px;
   }
 }
 .faq__questions__item__answer {
